@@ -1,0 +1,26 @@
+.footer{
+    background: #F0F6FF;
+    padding: 10px 0px;
+    .container{
+        .display{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .texts{
+            ul{
+                display: flex;
+                a{
+                    text-decoration: none;
+                }
+                li{
+                    margin: 0px 20px;
+                    list-style: none;
+                    color: #6D7079;
+                    font-weight: 500;
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
+}

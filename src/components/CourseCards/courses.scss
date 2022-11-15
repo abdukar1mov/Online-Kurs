@@ -1,0 +1,55 @@
+.container{
+    .flexi{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 70px;
+        .kurslar{
+            font-weight: 600;
+        }
+        .flexi-mini{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            h2{
+                color: #1F2949;
+                font-weight: 700;
+            }
+            button{
+                width: 180px;
+                height: 50px;
+                background-color: #FF5248;
+                color: white;
+                border: none;
+                border-radius: 5px;
+                margin: 0px 20px;
+                font-weight: 700;
+                text-transform: uppercase;
+            }
+            .toogle--button{
+                background-color: #68E617;
+                color: white;
+            }
+        }
+    }
+    .kurs__tarkibi{
+        display: flex;
+        justify-content: space-between;
+        grid-gap: 20px;
+        .image{
+            img{
+                width: 100%;
+            }
+        }
+        h1{
+            font-size: 23px;
+        }
+        .display__class{
+            width: 50%;
+            .accordions{
+                .css-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root{
+                    margin-top: 20px;
+                }
+            }
+        }
+    }
+}

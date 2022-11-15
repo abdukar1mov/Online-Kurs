@@ -1,0 +1,25 @@
+.KursPage{
+    .container{
+        .down{
+            margin: 80px 0px 0px 0px;
+            display: flex;
+            justify-content: space-between;
+            .tasks{
+                width: 50%;
+                padding: 0px 10px;
+                .accordion-button{
+                    background: rgba(128, 128, 128, 0.438);
+                    color: black;
+                }
+                .accordion-body{
+                    border-bottom: 2px solid black;
+                }
+            }
+        }
+        .homeworks{
+            .form-control{
+                width: 300px;
+            }
+        }
+    }
+}

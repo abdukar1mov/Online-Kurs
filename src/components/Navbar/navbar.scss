@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 5;
+    transition: 1s;
+
+    .container {
+        .logo {
+            img {
+                height: 40px;
+                width: 130px;
+            }
+        }
+
+        .texts {
+            display: flex;
+            align-items: center;
+            margin-top: 15px;
+
+            ul {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                a {
+                    text-decoration: none;
+                    color: black;
+                }
+
+                li {
+                    cursor: pointer;
+                    margin: 0px 20px;
+                    list-style: none;
+                    font-family: 'Inter', sans-serif;
+                    font-size: 16px;
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+}
+
+.fixedNav {
+    z-index: 999;
+    backdrop-filter: blur(10px);
+    transition-duration: 0.5s;
+}
+
+@media screen and (max-width: 330px) {
+    .navbar {
+        backdrop-filter: blur(10px);
+
+        .container {
+            .navbar-nav {
+                text-align: center;
+
+                .texts {
+                    ul {
+                        display: flex;
+                        flex-direction: column;
+                        margin: 0 auto;
+                        padding: 0px 20px;
+
+                        a {
+                            display: flex;
+                            justify-content: center;
+                            margin: 10px 0px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .navbar {
+        backdrop-filter: blur(12px);
+
+        .navbar-nav {
+            text-align: center;
+
+            .texts {
+                ul {
+                    display: flex;
+                    flex-direction: column;
+                    margin: 0 auto;
+                    padding: 0px 20px;
+
+                    a {
+                        display: flex;
+                        justify-content: center;
+                        margin: 10px 0px;
+                    }
+                }
+            }
+        }
+    }
+}

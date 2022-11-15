@@ -1,0 +1,110 @@
+.pupils{
+    .container{
+        h1{
+            color: #011D42;
+            font-family: "Inter", sans-serif;
+            margin: 60px 0px;
+        }
+        .cardsP{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            margin: 20px 0px;
+            .cardP{
+                width: 260px;
+                img{
+                    width: 100%;
+                }
+                .bottom{
+                    h4{
+                        font-weight: 500;
+                        color: #000D29;
+                        font-family: "Inter", sans-serif;
+                        margin-top: 20px;
+                    }
+                    .ielts{
+                        font-weight: 600;
+                        color: #000D29;
+                        span{
+                            color: #5D667A;
+
+                        }
+                    }
+                    .data{
+                        font-weight: 600;
+                        color: #000D29;
+                        span{
+                            color: #5D667A;
+
+                        }
+                    }
+                    .educ{
+                        font-weight: 600;
+                        color: #000D29;
+                        span{
+                            color: #5D667A;
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 330px){
+    .pupils{
+        .container{
+            h1{
+                color: #011D42;
+                font-family: "Inter", sans-serif;
+                margin: 60px 0px;
+            }
+            .cardsP{
+                display: flex;
+                flex-direction: column;
+                margin: 20px 0px;
+                align-items: center;
+                
+                .cardP{
+                    text-align: center;
+                    width: 260px;
+                    img{
+                        width: 100%;
+                    }
+                    .bottom{
+                        h4{
+                            font-weight: 500;
+                            color: #000D29;
+                            font-family: "Inter", sans-serif;
+                            margin-top: 20px;
+                        }
+                        .ielts{
+                            font-weight: 600;
+                            color: #000D29;
+                            span{
+                                color: #5D667A;
+    
+                            }
+                        }
+                        .data{
+                            font-weight: 600;
+                            color: #000D29;
+                            span{
+                                color: #5D667A;
+    
+                            }
+                        }
+                        .educ{
+                            font-weight: 600;
+                            color: #000D29;
+                            span{
+                                color: #5D667A;
+    
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
